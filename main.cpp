@@ -35,7 +35,7 @@ int main() {
 
 	auto end = std::chrono::steady_clock::now();
 	auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
-	std::cout << "Time: " << elapsed.count() << " s\n";
+	std::cout << "Time: " << elapsed.count() << "ms\n";
 
 	return 0;
 }
